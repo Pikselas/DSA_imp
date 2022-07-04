@@ -1,6 +1,7 @@
 #include<iostream>
 #include<concepts>
+#include<vector>
 #include<algorithm>
 
 template<typename T>
-concept Type = std::is_arithmetic_v<typename T::value_type>;
+concept ArithMeticType = std::is_arithmetic_v<typename T::value_type>;

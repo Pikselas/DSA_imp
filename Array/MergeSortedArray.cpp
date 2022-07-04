@@ -1,7 +1,6 @@
-#include<vector>
 #include"../Globals.h"
 
-template<Type vect>
+template<ArithMeticType vect>
 [[nodiscard]] 
 auto MergeSortedArray(const vect& arr_1 , const vect& arr_2)
 {
